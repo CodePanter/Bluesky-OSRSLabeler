@@ -8,8 +8,8 @@
     "format": "bunx prettier --write .",
     "lint": "bunx eslint .",
     "lint:fix": "bunx eslint --fix .",
-    "set-posts": "bunx tsx src/set-posts.ts",
-    "set-labels": "bunx tsx src/set-labels.ts"
+    "set-posts": "npx tsx src/set-posts.ts",
+    "set-labels": "npx tsx src/set-labels.ts"
   },
   "lint-staged": {
     "*": "prettier --ignore-unknown --write"
