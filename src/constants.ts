@@ -5,42 +5,51 @@ export const LABEL_LIMIT = 1;
 export const LABELS: Label[] = [
   {
     rkey: 'insert-rkey-here',
-    identifier: 'earth',
+    identifier: 'osrslabeler-official-regular-ironman',
     locales: [
-      { lang: 'en', name: 'Earth 🌎', description: 'Earth'},
-      { lang: 'pt-BR', name: 'Terra 🌎', description: 'Terra'},
+      { lang: 'en', name: 'Ironman', description: 'Ironman Account'},
     ]
   },
   {
     rkey: 'insert-rkey-here',
-    identifier: 'fire',
+    identifier: 'osrslabeler-official-hardcore-ironman',
     locales: [
-      { lang: 'en', name: 'Fire 🔥', description: 'Fire'},
-      { lang: 'pt-BR', name: 'Fogo 🔥', description: 'Fogo'},
+      { lang: 'en', name: 'Hardcore Ironman', description: 'Hardcore Ironman account'},
     ]
   },
   {
     rkey: 'insert-rkey-here',
-    identifier: 'air',
+    identifier: 'osrslabeler-official-ultimate-ironman',
     locales: [
-      { lang: 'en', name: 'Air 💨', description: 'Air'},
-      { lang: 'pt-BR', name: 'Ar 💨', description: 'Ar'},
+      { lang: 'en', name: 'Ultimate Ironman', description: 'Ultimate Ironman account'},
     ]
   },
   {
     rkey: 'insert-rkey-here',
-    identifier: 'water',
+    identifier: 'osrslabeler-official-maxed',
     locales: [
-      { lang: 'en', name: 'Water 💧', description: 'Water'},
-      { lang: 'pt-BR', name: 'Água 💧', description: 'Água'},
+      { lang: 'en', name: 'Maxed', description: 'Maxed account'},
     ]
   },
   {
     rkey: 'insert-rkey-here',
-    identifier: 'love',
+    identifier: 'osrslabeler-snowflake-bronzeman',
     locales: [
-      { lang: 'en', name: 'Love 💞', description: 'Love'},
-      { lang: 'pt-BR', name: 'Amor 💞', description: 'Amor'},
+      { lang: 'en', name: 'Bronzeman', description: 'Bronzeman Account'},
+    ]
+  },
+  {
+    rkey: 'insert-rkey-here',
+    identifier: 'osrslabeler-snowflake-onechunkman',
+    locales: [
+      { lang: 'en', name: 'One Chunkman', description: 'One Chunkman Account'},
+    ]
+  },
+  {
+    rkey: 'insert-rkey-here',
+    identifier: 'osrslabeler-snowflake-extreme-onechunkman',
+    locales: [
+      { lang: 'en', name: 'Extreme One Chunkman', description: 'Extreme One Chunkman Account'},
     ]
   },
 ];
