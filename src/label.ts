@@ -66,7 +66,7 @@ async function addOrUpdateLabel(did: string, rkey: string, labels: Set<string>) 
   const newLabel = LABELS.find((label) => label.rkey === rkey);
   logger.info(`New label: ${newLabel?.identifier}`);
 
-  if (labels.size >= LABEL_LIMIT) {
+  if (LABEL_LIMIT && labels.size >= LABEL_LIMIT) {
     try {
       await labelerServer.createLabels({ uri: did }, { negate: Array.from(labels) });
       logger.info(`Successfully negated existing labels: ${Array.from(labels).join(', ')}`);
