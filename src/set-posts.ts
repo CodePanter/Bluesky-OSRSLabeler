@@ -1,7 +1,7 @@
 import { Bot } from '@skyware/bot';
 
 import { BSKY_IDENTIFIER, BSKY_PASSWORD } from './config.js';
-import { LABELS } from './constants.js';
+import { LABELS, INTRO_POST } from './constants.js';
 
 const bot = new Bot();
 
@@ -15,7 +15,7 @@ try {
   process.exit(1);
 }
 
-process.stdout.write('WARNING: This will delete all posts in your profile. Are you sure you want to continue? (y/n) ');
+process.stdout.write('WARNING: This will only add posts for new labels (without rkey configured). Are you sure you want to continue? (y/n) ');
 
 const answer = await new Promise((resolve) => {
   process.stdin.once('data', (data) => {
@@ -24,20 +24,33 @@ const answer = await new Promise((resolve) => {
 });
 
 if (answer === 'y') {
-  const postsToDelete = await bot.profile.getPosts();
-  for (const post of postsToDelete.posts) {
-    await post.delete();
-  }
-  console.log('All posts have been deleted.');
+  console.log('New posts will be added now.');
 } else {
   console.log('Operation cancelled.');
   process.exit(0);
 }
 
-const post = await bot.post({
-  text: 'Like the replies to this post to receive labels.',
-  threadgate: { allowLists: [] },
+let post = null;
+if (!INTRO_POST) {
+  post = await bot.post({
+    text: 'Like the replies to this post to receive labels.',
+    threadgate: { allowLists: [] },
 });
+} else {
+  let posts = await bot.getUserPosts(BSKY_IDENTIFIER, { limit: 100 });
+
+  for (let botPost of posts.posts) {
+    if (botPost.uri.includes(INTRO_POST)) {
+      post = botPost;
+      break;
+    }
+  };
+}
+
+if (post === null) {
+  console.log('No post data available.');
+  process.exit(0);
+}
 
 const labelNames = LABELS.map((label) => label.locales.map((locale) => locale.name).join(' | '));
 const labelRkeys: Record<string, string> = {};
