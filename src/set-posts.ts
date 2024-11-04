@@ -52,11 +52,13 @@ if (post === null) {
   process.exit(0);
 }
 
-const labelNames = LABELS.map((label) => label.locales.map((locale) => locale.name).join(' | '));
 const labelRkeys: Record<string, string> = {};
-for (const labelName of labelNames) {
-  const labelPost = await post.reply({ text: labelName });
-  labelRkeys[labelName] = labelPost.uri.split('/').pop()!;
+for (let label of LABELS) {
+  if (label.rkey === '') { // Only make new posts for labels without rkeys.
+    let labelName = label.locales.map((locale) => locale.name).join(' | ');
+    const labelPost = await post.reply({ text: labelName });
+    labelRkeys[labelName] = labelPost.uri.split('/').pop()!;
+  }
 }
 
 console.log('Label rkeys:');
@@ -64,6 +66,8 @@ for (const [name, rkey] of Object.entries(labelRkeys)) {
   console.log(`    name: '${name}',`);
   console.log(`    rkey: '${rkey}',`);
 }
+
+process.exit(0);
 
 const deletePost = await bot.post({ text: 'Like this post to delete all labels.' });
 const deletePostRkey = deletePost.uri.split('/').pop()!;
