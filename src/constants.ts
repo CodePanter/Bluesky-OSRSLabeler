@@ -57,7 +57,7 @@ export const LABELS: Label[] = [
     rkey: '',
     identifier: 'osrslabeler-official-main',
     locales: [
-      { lang: 'en', name: 'Extreme 'Main', description: 'Main Account'},
+      { lang: 'en', name: 'Main', description: 'Main Account'},
     ]
   },
   {
