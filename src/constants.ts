@@ -1,6 +1,7 @@
 import { Label } from './types.js';
 
 export const DELETE = '3l7tm25wzul2f';
+export const INTRO_POST = '3l7tm24cxne2z';
 export const LABEL_LIMIT = false;
 export const LABELS: Label[] = [
   {
@@ -50,6 +51,63 @@ export const LABELS: Label[] = [
     identifier: 'osrslabeler-snowflake-extreme-onechunkman',
     locales: [
       { lang: 'en', name: 'Extreme One Chunkman', description: 'Extreme One Chunkman Account'},
+    ]
+  },
+  {
+    rkey: '',
+    identifier: 'osrslabeler-official-main',
+    locales: [
+      { lang: 'en', name: 'Extreme 'Main', description: 'Main Account'},
+    ]
+  },
+  {
+    rkey: '',
+    identifier: 'osrslabeler-snowflake-one-defence-pure',
+    locales: [
+      { lang: 'en', name: 'One Defence Pure', description: 'One Defence Pure Account'},
+    ]
+  },
+  {
+    rkey: '',
+    identifier: 'osrslabeler-snowflake-berzeker',
+    locales: [
+      { lang: 'en', name: 'Berzerker', description: 'Berzerker Account'},
+    ]
+  },
+  {
+    rkey: '',
+    identifier: 'osrslabeler-official-free-to-play',
+    locales: [
+      { lang: 'en', name: 'F2P Only', description: 'Free To Play Account'},
+    ]
+  },
+  {
+    rkey: '',
+    identifier: 'osrslabeler-snowflake-combat-only',
+    locales: [
+      { lang: 'en', name: 'Combat Only', description: 'Combat Only / 807 Account'},
+    ]
+  },
+  {
+    rkey: '',
+    identifier: 'osrslabeler-snowflake-skiller',
+    locales: [
+      { lang: 'en', name: 'Skiller', description: 'Skiller Account'},
+    ]
+  },
+
+  {
+    rkey: '',
+    identifier: 'osrslabeler-official-two-hundred-million-all',
+    locales: [
+      { lang: 'en', name: '200M All', description: '200M All Account'},
+    ]
+  },
+  {
+    rkey: '',
+    identifier: 'osrslabeler-snowflake-skiller',
+    locales: [
+      { lang: 'en', name: 'Skiller', description: 'Skiller Account'},
     ]
   },
 ];
