@@ -67,8 +67,7 @@ for (const [name, rkey] of Object.entries(labelRkeys)) {
   console.log(`    rkey: '${rkey}',`);
 }
 
-process.exit(0);
-
+// This still has to be reset after adding new replies, so it is always on top of the profile.
 const deletePost = await bot.post({ text: 'Like this post to delete all labels.' });
 const deletePostRkey = deletePost.uri.split('/').pop()!;
 console.log('Delete post rkey:');
