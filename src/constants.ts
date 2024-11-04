@@ -54,42 +54,42 @@ export const LABELS: Label[] = [
     ]
   },
   {
-    rkey: '',
+    rkey: '3la4qmjyp642y',
     identifier: 'osrslabeler-official-main',
     locales: [
       { lang: 'en', name: 'Main', description: 'Main Account'},
     ]
   },
   {
-    rkey: '',
+    rkey: '3la4qmksi4h2n',
     identifier: 'osrslabeler-snowflake-one-defence-pure',
     locales: [
       { lang: 'en', name: 'One Defence Pure', description: 'One Defence Pure Account'},
     ]
   },
   {
-    rkey: '',
+    rkey: '3la4qml267722',
     identifier: 'osrslabeler-snowflake-berzeker',
     locales: [
       { lang: 'en', name: 'Berzerker', description: 'Berzerker Account'},
     ]
   },
   {
-    rkey: '',
+    rkey: '3la4qml7qqc2s',
     identifier: 'osrslabeler-official-free-to-play',
     locales: [
       { lang: 'en', name: 'F2P Only', description: 'Free To Play Account'},
     ]
   },
   {
-    rkey: '',
+    rkey: '3la4qmlfjry23',
     identifier: 'osrslabeler-snowflake-combat-only',
     locales: [
       { lang: 'en', name: 'Combat Only', description: 'Combat Only / 807 Account'},
     ]
   },
   {
-    rkey: '',
+    rkey: '3la4qmlx7qh25',
     identifier: 'osrslabeler-snowflake-skiller',
     locales: [
       { lang: 'en', name: 'Skiller', description: 'Skiller Account'},
@@ -97,17 +97,10 @@ export const LABELS: Label[] = [
   },
 
   {
-    rkey: '',
+    rkey: '3la4qmls2tx22',
     identifier: 'osrslabeler-official-two-hundred-million-all',
     locales: [
       { lang: 'en', name: '200M All', description: '200M All Account'},
-    ]
-  },
-  {
-    rkey: '',
-    identifier: 'osrslabeler-snowflake-skiller',
-    locales: [
-      { lang: 'en', name: 'Skiller', description: 'Skiller Account'},
     ]
   },
 ];
