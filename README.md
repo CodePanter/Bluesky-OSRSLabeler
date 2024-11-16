@@ -7,13 +7,31 @@ To subscribe to the labeler, go [here](https://bsky.app/profile/osrslabeler.bsky
 
 The current supported labels are listed below. Do you want me to add more? Click [here](https://github.com/CodePanter/Bluesky-OSRSLabeler/issues/new) and file a new issue.
 
+### Official Labels
 - Ironman
 - Hardcore Ironman
 - Ultimate Ironman
 - Maxed
+- Main
+- 200M All
+- Group Ironman
+- Hardcore Group Ironman
+- Unranked Group Ironman
+
+
+### Snowflake Labels
 - Bronzeman
 - One Chunkman
 - Extreme One Chunkman
+- One Defence Pure
+- Berzerker
+- F2P Only
+- Combat Only
+- Skiller
+- Self Restricted
+- Collection Logger
+- Tasker
+- Area Restricted
 
 ## Credits
 
