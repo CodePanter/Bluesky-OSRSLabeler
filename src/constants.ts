@@ -1,6 +1,6 @@
 import { Label } from './types.js';
 
-export const DELETE = '3la4rpthj2c2s';
+export const DELETE = '3lb2vii7lds2d';
 export const INTRO_POST = '3l7tm24cxne2z';
 export const LABEL_LIMIT = false;
 export const LABELS: Label[] = [
@@ -103,49 +103,49 @@ export const LABELS: Label[] = [
     ]
   },
   {
-    rkey: '',
+    rkey: '3lb2vigedbp25',
     identifier: 'osrslabeler-official-regular-group-ironman',
     locales: [
       { lang: 'en', name: 'Group Ironman', description: 'Group Ironman Account'},
     ]
   },
   {
-    rkey: '',
+    rkey: '3lb2vigtmnk26',
     identifier: 'osrslabeler-official-hardcore-group-ironman',
     locales: [
       { lang: 'en', name: 'Hardcore Group Ironman', description: 'Hardcore Group Ironman Account'},
     ]
   },
   {
-    rkey: '',
+    rkey: '3lb2vigyuko2v',
     identifier: 'osrslabeler-official-unranked-group-ironman',
     locales: [
       { lang: 'en', name: 'Unranked Group Ironman', description: 'Unranked Group Ironman Account'},
     ]
   },
   {
-    rkey: '',
+    rkey: '3lb2vihal2o2a',
     identifier: 'osrslabeler-snowflake-self-restricted',
     locales: [
       { lang: 'en', name: 'Self Restricted', description: 'Self Restricted Account'},
     ]
   },
   {
-    rkey: '',
+    rkey: '3lb2vihdlrb2e',
     identifier: 'osrslabeler-snowflake-collection-logger',
     locales: [
       { lang: 'en', name: 'Collection Logger', description: 'Collection Log Hunter Account'},
     ]
   },
   {
-    rkey: '',
+    rkey: '3lb2vihl52j2l',
     identifier: 'osrslabeler-snowflake-tasker',
     locales: [
       { lang: 'en', name: 'Tasker', description: 'Tasker Account'},
     ]
   },
   {
-    rkey: '',
+    rkey: '3lb2vihqjhy2w',
     identifier: 'osrslabeler-snowflake-area-restricted',
     locales: [
       { lang: 'en', name: 'Area Restricted', description: 'Area Restricted Account'},
