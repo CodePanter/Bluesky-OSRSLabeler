@@ -95,12 +95,60 @@ export const LABELS: Label[] = [
       { lang: 'en', name: 'Skiller', description: 'Skiller Account'},
     ]
   },
-
   {
     rkey: '3la4qmls2tx22',
     identifier: 'osrslabeler-official-two-hundred-million-all',
     locales: [
       { lang: 'en', name: '200M All', description: '200M All Account'},
+    ]
+  },
+  {
+    rkey: '',
+    identifier: 'osrslabeler-official-regular-group-ironman',
+    locales: [
+      { lang: 'en', name: 'Group Ironman', description: 'Group Ironman Account'},
+    ]
+  },
+  {
+    rkey: '',
+    identifier: 'osrslabeler-official-hardcore-group-ironman',
+    locales: [
+      { lang: 'en', name: 'Hardcore Group Ironman', description: 'Hardcore Group Ironman Account'},
+    ]
+  },
+  {
+    rkey: '',
+    identifier: 'osrslabeler-official-unranked-group-ironman',
+    locales: [
+      { lang: 'en', name: 'Unranked Group Ironman', description: 'Unranked Group Ironman Account'},
+    ]
+  },
+  {
+    rkey: '',
+    identifier: 'osrslabeler-snowflake-self-restricted',
+    locales: [
+      { lang: 'en', name: 'Self Restricted', description: 'Self Restricted Account'},
+    ]
+  },
+  {
+    rkey: '',
+    identifier: 'osrslabeler-snowflake-collection-logger',
+    locales: [
+      { lang: 'en', name: 'Collection Logger', description: 'Collection Log Hunter Account'},
+    ]
+  },
+  {
+    rkey: '',
+    identifier: 'osrslabeler-snowflake-tasker',
+    locales: [
+      { lang: 'en', name: 'Tasker', description: 'Tasker Account'},
+    ]
+  },
+  {
+    rkey: '',
+    identifier: 'osrslabeler-snowflake-area-restricted',
+    locales: [
+      { lang: 'en', name: 'Area Restricted', description: 'Area Restricted Account'},
     ]
   },
 ];
