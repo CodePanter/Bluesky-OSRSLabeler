@@ -151,4 +151,39 @@ export const LABELS: Label[] = [
       { lang: 'en', name: 'Area Restricted', description: 'Area Restricted Account'},
     ]
   },
+  {
+    rkey: '',
+    identifier: 'osrslabeler-snowflake-fashionscape',
+    locales: [
+      { lang: 'en', name: 'Fashionscape', description: 'Fashionscape Account'},
+    ]
+  },
+  {
+    rkey: '',
+    identifier: 'osrslabeler-snowflake-poh-host',
+    locales: [
+      { lang: 'en', name: 'POH Host', description: 'POH Host Account'},
+    ]
+  },
+  {
+    rkey: '',
+    identifier: 'osrslabeler-official-leagues',
+    locales: [
+      { lang: 'en', name: 'Leagues', description: 'Leagues Account'},
+    ]
+  },
+  {
+    rkey: '',
+    identifier: 'osrslabeler-official-deadman',
+    locales: [
+      { lang: 'en', name: 'Deadman', description: 'Deadman Account'},
+    ]
+  },
+  {
+    rkey: '',
+    identifier: 'osrslabeler-official-speedrun',
+    locales: [
+      { lang: 'en', name: 'Speedrun', description: 'Speedrun Account'},
+    ]
+  },
 ];
