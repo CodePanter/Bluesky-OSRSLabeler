@@ -1,6 +1,6 @@
 import { Label } from './types.js';
 
-export const DELETE = '3lb2vii7lds2d';
+export const DELETE = '3lbhfn6ufni2g';
 export const INTRO_POST = '3l7tm24cxne2z';
 export const LABEL_LIMIT = false;
 export const LABELS: Label[] = [
@@ -152,35 +152,35 @@ export const LABELS: Label[] = [
     ]
   },
   {
-    rkey: '',
+    rkey: '3lbhfn5oyil2b',
     identifier: 'osrslabeler-snowflake-fashionscape',
     locales: [
       { lang: 'en', name: 'Fashionscape', description: 'Fashionscape Account'},
     ]
   },
   {
-    rkey: '',
+    rkey: '3lbhfn66xfa26',
     identifier: 'osrslabeler-snowflake-poh-host',
     locales: [
       { lang: 'en', name: 'POH Host', description: 'POH Host Account'},
     ]
   },
   {
-    rkey: '',
+    rkey: '3lbhfn6e44x2y',
     identifier: 'osrslabeler-official-leagues',
     locales: [
       { lang: 'en', name: 'Leagues', description: 'Leagues Account'},
     ]
   },
   {
-    rkey: '',
+    rkey: '3lbhfn6jgzp2y',
     identifier: 'osrslabeler-official-deadman',
     locales: [
       { lang: 'en', name: 'Deadman', description: 'Deadman Account'},
     ]
   },
   {
-    rkey: '',
+    rkey: '3lbhfn6ouyp2a',
     identifier: 'osrslabeler-official-speedrun',
     locales: [
       { lang: 'en', name: 'Speedrun', description: 'Speedrun Account'},
