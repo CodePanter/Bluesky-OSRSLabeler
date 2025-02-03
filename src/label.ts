@@ -5,7 +5,7 @@ import { DID, SIGNING_KEY, DB_PATH } from './config.js';
 import { DELETE, LABELS, LABEL_LIMIT } from './constants.js';
 import logger from './logger.js';
 
-export const labelerServer = new LabelerServer({ did: DID, signingKey: SIGNING_KEY, dbpath: DB_PATH });
+export const labelerServer = new LabelerServer({ did: DID, signingKey: SIGNING_KEY, dbPath: DB_PATH });
 
 export const label = async (subject: string | AppBskyActorDefs.ProfileView, rkey: string) => {
   const did = AppBskyActorDefs.isProfileView(subject) ? subject.did : subject;
