@@ -1,6 +1,6 @@
 import { Label } from './types.js';
 
-export const DELETE = '3lbhfn6ufni2g';
+export const DELETE = '3lhpc2dv37k22';
 export const INTRO_POST = '3l7tm24cxne2z';
 export const LABEL_LIMIT = false;
 export const LABELS: Label[] = [
@@ -187,7 +187,7 @@ export const LABELS: Label[] = [
     ]
   },
   {
-    rkey: '',
+    rkey: '3lhpc2dg7jt25',
     identifier: 'osrslabeler-official-mobile',
     locales: [
       { lang: 'en', name: 'Mobile', description: 'Mobile only Account'},
