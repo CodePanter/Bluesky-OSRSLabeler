@@ -186,4 +186,11 @@ export const LABELS: Label[] = [
       { lang: 'en', name: 'Speedrun', description: 'Speedrun Account'},
     ]
   },
+  {
+    rkey: '',
+    identifier: 'osrslabeler-official-mobile',
+    locales: [
+      { lang: 'en', name: 'Mobile', description: 'Mobile only Account'},
+    ]
+  },
 ];
